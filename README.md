@@ -44,7 +44,7 @@ Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da Kenzie
 
 ## Layout
 
-- [Kenzie Food](./assets/img/layout.png)
+- [PicPro](./assets/img/layout.png)
 
 ## Referências
 - [W3Schools referência HTML](https://www.w3schools.com/tags/default.asp)
