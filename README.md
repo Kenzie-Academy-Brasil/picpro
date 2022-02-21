@@ -4,7 +4,8 @@ Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da Kenzie
 
 ## Ferramentas
 
-1. [Plataforma](https://participe.kenzie.com.br/desafios)
+1. [Instalação do VS Code no Windows](https://kenzie.com.br/blog/instalacao-vs-code-windows/)
+2. [Como utilizar o codepen e o VSCode](https://kenzie-academy-brasil.github.io/ferramentas/)
 
 ## Checkpoints aulas
 
