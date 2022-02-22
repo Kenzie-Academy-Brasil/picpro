@@ -11,6 +11,8 @@ Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da Kenzie
 
 1. [Aula 1: Introdução ao HTML e estruturação do projeto](https://kenzieacademybr.notion.site/Checkpoint-dffdc96f6a3f4db887713163d69fb756)
 
+2. [Aula 2: Introdução ao CSS e estilização do projeto](https://kenzieacademybr.notion.site/Checkpoint-b605faa196074f558ba5ef9a91d38919)
+
 ## O projeto
 
 ### Estrutura de arquivos
@@ -48,6 +50,7 @@ Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da Kenzie
 - [PicPro](./assets/img/layout.png)
 
 ## Referências
+
 - [W3Schools referência HTML](https://www.w3schools.com/tags/default.asp)
 - [W3Schools referência CSS](https://www.w3schools.com/cssref/default.asp)
 - [Google Fonts](https://fonts.google.com/)
