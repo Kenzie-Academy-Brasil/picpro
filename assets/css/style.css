@@ -1,0 +1,122 @@
+body {
+  background-color: #4a8864;
+  font-family: "Poppins", sans-serif;
+}
+
+.cabecalho {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.cabecalho .container {
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho figure img {
+  width: 100%;
+  max-width: 140px;
+}
+
+.cabecalho .cabecalho__logoPicpro {
+  border-right: 1px solid #fff;
+  margin-right: 15px;
+}
+
+.secaoDetalhesConta {
+  color: #fff;
+  padding: 60px 0 30px;
+}
+
+.secaoDetalhesConta__sobreUsuario {
+  display: flex;
+  align-items: center;
+}
+
+.secaoDetalhesConta__sobreUsuario p {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.secaoDetalhesConta__sobreUsuario img {
+  width: 100%;
+  max-width: 50px;
+}
+
+.secaoDetalhesConta__sobreUsuario p strong {
+  display: block;
+  font-weight: bold;
+}
+
+.secaoDetalhesConta__sobreSaldo {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  align-items: center;
+}
+
+.secaoDetalhesConta__sobreSaldo p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.secaoDetalhesConta__sobreSaldo p strong {
+  display: block;
+  font-weight: 600;
+}
+
+.secaoDetalhesConta__sobreSaldo button {
+  background-color: #fff;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 60px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.secaoDetalhesConta__opcoesTransacoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secaoDetalhesConta__opcoesTransacoes li {
+  background-color: #1f6f54;
+  width: 170px;
+  height: 177px;
+  border-radius: 20px;
+  padding: 40px 20px;
+}
+
+.secaoDetalhesConta__opcoesTransacoes li img {
+  width: 100%;
+  max-width: 40px;
+}
+
+.secaoDetalhesConta__opcoesTransacoes li p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 25px;
+  width: 80px;
+}
+
+.secaoTransacao {
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
+  border-bottom: 15px solid #f0f0f0;
+  padding: 30px 0;
+}
+
+.secaoTransacao__avisoSelecao p {
+  font-size: 25px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  padding: 30px 60px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.secaoTransacao__avisoSelecao img {
+  margin: 30px 0 90px;
+  width: 100%;
+}

@@ -1,0 +1,71 @@
+/* CSS => Cascading Style Sheet (Folha de estilo em cascata) */
+
+/* 
+ seletor : {
+     propriedade: valor
+     cor: vermelho
+ } => regra CSS
+
+*/
+
+/* Tipos de seletores
+1. Seletor por elemento/tag
+*/
+
+header {
+  background-color: burlywood;
+}
+
+/* 2. Seletor por classe */
+.secaoDetalhesConta {
+  /* background-color: cadetblue; */
+}
+
+/* 3. Seletor por ID */
+#exemploSelectorId {
+  color: red;
+  background-color: cadetblue;
+  font-family: monospace;
+  font-size: 20px;
+}
+/* Dimensionamento */
+.secaoDetalhesConta {
+  /* width: 300px; */
+  /* height: 400px; */
+  background-color: rosybrown;
+}
+/* elementos inline a, strong, span...*/
+a {
+  height: 50px;
+  /* width: 100px; */
+  background-color: salmon;
+  display: inline-block;
+}
+/* elementos bloco p, h2, section... */
+
+p {
+  /* height: 50px;
+  width: 100px; */
+}
+
+/* Flexbox */
+
+.exemploDivFlexbox {
+  background-color: #c2c2c2;
+  height: 300px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.div1 {
+  width: 50px;
+  height: 50px;
+  background-color: thistle;
+}
+.div2 {
+  width: 50px;
+  height: 50px;
+  background-color: skyblue;
+}
