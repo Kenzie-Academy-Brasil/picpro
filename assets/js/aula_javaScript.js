@@ -151,14 +151,95 @@ let resultado = divisao(2,4)
 let divPessoa = document.querySelector(".pessoa")
 
 
-let filaAtendimento = ["Hudson", "Vitor", "Guilherme", "Amanda", "Maria", "Daniel","Gabriel"]
-for(let i = 0; i < filaAtendimento.length; i = i + 1){
+//let filaAtendimento = ["Hudson", "Vitor", "Guilherme", "Amanda", "Maria", "Daniel","Gabriel"]
+// for(let i = 0; i < filaAtendimento.length; i = i + 1){
     
     
-    let div = document.createElement("div")
-    div.innerText = filaAtendimento[i]
+//     let div = document.createElement("div")
+//     div.innerText = filaAtendimento[i]
 
-    divPessoa.appendChild(div)
+//     //divPessoa.appendChild(div)
   
-  
+// }
+
+
+
+//AULA DE DOM 
+//SELETORES
+//const button = document.querySelector()
+//const button = document.querySelectorAll()
+//const button = document.getElementById()
+
+//CRIANDO ELEMENTOS NO JAVASCRIPT
+const body      = document.querySelector("body")
+const tagButton = document.createElement("button")
+tagButton.innerText = "Extrato 2"
+
+//body.appendChild(tagButton)
+
+//CRIANDO LISTA DE NOMES
+let filaAtendimento = ["Hudson", "Vitor", "Guilherme", "Amanda", "Maria", "Daniel","Gabriel"]
+
+const lista = document.querySelector(".listaNomes")
+
+//para         //condição                   //incremento
+for(let i = 0; i < filaAtendimento.length; i++){
+   
+    //CRIANDO UM LI 
+    const liNome = document.createElement("li")
+    
+    //ALIMENTO ESSE LI COM CADA NOME
+    liNome.innerText = filaAtendimento[i]
+    
+    //lista.appendChild(liNome)
+
 }
+
+
+
+//EVENTOS 
+
+
+//1 SELECIONAR INPUT **
+    //A) PEGAR O VALOR DO CAMPO  **
+
+//2 ADICIONAR UM EVENTO NO BOTÃO/CLIQUE  **
+//3 GUARDAR O VALOR EM ALGUM LUGAR  **
+//4 SELECIONAR A LISTA **
+//5 CRIAR UM LI (ITEM DA LISTA)
+//6 ALIMENTAR COM O VALOR DO INPUNT 
+//7 JOGAR ELE PARA DENTRO DA LISTA
+
+//SELECIONANDO BUTTON DO HTML
+const btnAdicionar = document.querySelector(".btnAdicionar")
+
+//SELECIONANDO A LISTA DE NOMES 
+const ol = document.querySelector("ol")
+
+//INTERCEPTANDO EVENTO NO BUTTON
+btnAdicionar.addEventListener("click", pegarValores)
+
+//FUNÇÃO QUE VAI EXECUTAR
+function pegarValores(event){
+    //console.log(event)
+    
+    //SELECIONANDO INPUT 
+    const inputTexto = document.querySelector(".inputTexto")
+
+    //PEGANDO O VALOR DO INPUT 
+    const valorInput  = inputTexto.value 
+
+    //CRIANDO LI PARA ALIMENTAR A LISTA 
+    const li = document.createElement("li")
+    
+    //ALIMENTAR LI COM O VALOR DO CAMPO
+    li.innerText = valorInput
+
+    //ADICIONANDO O LI COM AS INFORMAÇÕES NA LISTA
+    ol.appendChild(li)
+    
+
+}
+
+
+

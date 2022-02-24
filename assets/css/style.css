@@ -92,6 +92,7 @@ body {
   height: 177px;
   border-radius: 20px;
   padding: 40px 20px;
+  cursor: pointer;
 }
 
 .secaoDetalhesConta__opcoesTransacoes li img {
@@ -112,6 +113,14 @@ body {
   border-radius: 20px 20px 0 0;
   border-bottom: 15px solid #f0f0f0;
   padding: 30px 0;
+  min-height: 450px;
+}
+.secaoTransacao .container div{
+  display: none;
+}
+
+.secaoTransacao .container div.mostrar{
+  display: block;
 }
 
 .secaoTransacao__avisoSelecao p {
