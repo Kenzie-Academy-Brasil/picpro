@@ -34,7 +34,7 @@ Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da Kenzie
 
 ### Cores
 
-- Verde principal: #4a8864;
+- Verde principal: #228664;
 - Verde principal escuro: #1F6F54;
 - Branco com transparência(borda cabeçalho): rgba(255, 255, 255, 0.4);
 - Branco: #fff;
