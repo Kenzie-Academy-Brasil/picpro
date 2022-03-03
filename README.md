@@ -55,10 +55,6 @@ Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da Kenzie
 - [PicPro Boleto](./assets/img/layout-boleto.png);
 - [PicPro Cobrar](./assets/img/layout-cobrar.png);
 
-## Figma
-
-- [Layout - Figma](https://www.figma.com/file/RYHPs4ndUnTv2qAlXsES2c/Projeto_PicPay_2022-02?node-id=469%3A914);
-
 ## Referências
 
 - [W3Schools referência HTML](https://www.w3schools.com/tags/default.asp);
